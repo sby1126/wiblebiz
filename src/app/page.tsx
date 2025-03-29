@@ -8,5 +8,8 @@ export default function Home(data: FormData) {
 export function generateMetadata() {
     return {
         title: `기아 비즈(Kia Biz)`,
+        icons: {
+            icon: '/images/kia_favicon.png',
+        },
     }
 }
